@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 460">
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#176fc2"/></marker></defs>
+  <rect width="980" height="460" rx="24" fill="#fbfdff" stroke="#dbe8f4"/>
+  <text x="42" y="52" font-family="Segoe UI, Arial" font-size="28" font-weight="900" fill="#071a32">Crash Risk Prediction Pipeline</text>
+  <text x="42" y="82" font-family="Segoe UI, Arial" font-size="15" font-weight="700" fill="#607083">개별 종목의 대규모 손실 사건을 예측하고 설명가능성으로 검증하는 분석 구조</text>
+  <g font-family="Segoe UI, Arial" font-size="15" font-weight="900">
+    <rect x="52" y="134" width="156" height="84" rx="16" fill="#123766"/><text x="130" y="168" text-anchor="middle" fill="#fff">Stock Panel</text><text x="130" y="194" text-anchor="middle" fill="#bfdbfe">2,812 stocks</text>
+    <rect x="52" y="246" width="156" height="84" rx="16" fill="#176fc2"/><text x="130" y="280" text-anchor="middle" fill="#fff">Volatility</text><text x="130" y="306" text-anchor="middle" fill="#eaf6ff">VKOSPI / VIX</text>
+    <rect x="280" y="190" width="178" height="98" rx="18" fill="#f4f8fc" stroke="#dbe8f4"/><text x="369" y="226" text-anchor="middle" fill="#123766">Feature Matrix</text><text x="369" y="254" text-anchor="middle" fill="#607083">return · drawdown · IV</text>
+    <rect x="536" y="128" width="148" height="76" rx="16" fill="#12a6cf"/><text x="610" y="174" text-anchor="middle" fill="#fff">CatBoost</text>
+    <rect x="536" y="222" width="148" height="76" rx="16" fill="#15a879"/><text x="610" y="268" text-anchor="middle" fill="#fff">Transformer</text>
+    <rect x="536" y="316" width="148" height="76" rx="16" fill="#f47b20"/><text x="610" y="362" text-anchor="middle" fill="#fff">Walk-forward</text>
+    <rect x="762" y="150" width="166" height="92" rx="18" fill="#fff" stroke="#dbe8f4"/><text x="845" y="186" text-anchor="middle" fill="#123766">SHAP</text><text x="845" y="214" text-anchor="middle" fill="#607083">risk explanation</text>
+    <rect x="762" y="276" width="166" height="92" rx="18" fill="#123766"/><text x="845" y="312" text-anchor="middle" fill="#fff">Early Warning</text><text x="845" y="340" text-anchor="middle" fill="#bfdbfe">portfolio action</text>
+  </g>
+  <g stroke="#176fc2" stroke-width="4" marker-end="url(#arrow)" fill="none">
+    <path d="M208 176C238 176 246 222 278 226"/>
+    <path d="M208 288C238 288 246 256 278 252"/>
+    <path d="M458 239h72"/>
+    <path d="M684 166h72"/>
+    <path d="M684 260h72"/>
+    <path d="M845 242v28"/>
+  </g>
+</svg>

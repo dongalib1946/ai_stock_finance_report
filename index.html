@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 기반 주식·금융시장 예측 연구동향 분석</title>
+  <link rel="icon" type="image/webp" href="img/80logo.webp">
+  <link rel="stylesheet" href="assets/css/report.css">
+</head>
+<body>
+  <div id="loader" class="loader"><div class="spinner"></div><b>Scopus · SciVal 데이터 구성 중</b></div>
+  <header class="site-header">
+    <a class="brand" href="#top"><img src="img/80logo.webp" alt="Dong-A University 80th logo"><span>누구나 연구자</span></a>
+    <nav>
+      <a href="#overview">개요</a><a href="#trend">동향</a><a href="#keyword">키워드</a><a href="#data-structure">자료구조</a><a href="#researchers">연구자</a><a href="#papers">논문</a><a href="#strategy">전략</a><a href="#closing">마무리</a><a href="#source">출처</a>
+    </nav>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline aria-hidden="true">
+        <source src="img/Dong-A University.mp4" type="video/mp4">
+      </video>
+      <div class="hero-copy">
+        <p class="eyebrow">학술정보서비스과 석재우</p>
+        <h1><span>AI 기반 주식·금융시장 예측</span><span>연구동향 분석</span></h1>
+        <p>Scopus 서지 데이터와 SciVal 연구지표를 바탕으로, AI 금융예측 연구가 단순 가격 예측에서 시장충격 조기경보, 리스크 분석, 생성형 시계열 모델로 확장되는 흐름을 분석했습니다.</p>
+        <div id="sdgChips" class="chips"></div>
+      </div>
+    </section>
+    <section class="kpis" id="overview"></section>
+    <section class="section intro">
+      <div class="section-head"><p>Research Background</p><h2>주제 선정 이유</h2></div>
+      <div class="intro-grid">
+        <article><b>금융서비스의 AI 전환</b><p>세계 금융권에서는 생성형 AI, 머신러닝, 자동화 기술이 리스크 관리, 이상거래 탐지, 고객 응대, 투자 리서치, 포트폴리오 운용 영역으로 빠르게 확산되고 있다. 금융시장은 뉴스, 공시, 가격, 거래량, 거시지표가 실시간으로 결합되는 데이터 집약 산업이므로 AI 예측 연구의 확장성이 큰 분야로 판단된다.</p></article>
+        <article><b>주제선정 근거</b><p>AI 기반 주식·금융시장 예측은 단순한 주가 예측을 넘어 시장 변동성 조기 감지, 위기 신호 탐지, 자산배분 최적화, 알고리즘 트레이딩, 금융소비자 보호까지 연결되는 연구 주제이다. Scopus 수집 결과에서도 관련 연구량은 2020년 1,000건에서 2025년 4,090건으로 증가하여 연구 수요의 확대가 확인된다.</p></article>
+        <article><b>SDG 연계성</b><p>본 주제는 SDG 8, 9, 10과 직접적으로 연계된다. SDG 8은 생산적 금융시장과 안정적 투자 의사결정, SDG 9는 AI·데이터 기반 금융 인프라와 산업혁신, SDG 10은 정보 비대칭 완화와 금융 접근성 개선의 관점에서 해석된다.</p></article>
+      </div>
+      <div id="sdgVisuals" class="sdg-visual-grid"></div>
+      <div class="news-panel">
+        <div class="panel-title"><b>뉴스·리포트로 본 급부상 배경</b><span>기사·기관 보고서</span></div>
+        <div id="newsCards" class="news-grid"></div>
+      </div>
+      <div class="analysis-board compact" data-type="sdg">
+        <div class="analysis-list">
+          <p><b>SDG 8 양질의 일자리와 경제성장:</b> AI 금융예측은 투자 위험을 사전에 식별하고 자본 배분 효율을 높임으로써 금융시장의 생산성 개선에 기여할 수 있다. 특히 기업 부도, 시장 급락, 포트폴리오 손실 가능성을 조기에 탐지하는 연구는 경제 충격 완화와 지속 가능한 성장 기반 형성에 연결된다.</p>
+          <p><b>SDG 9 산업·혁신과 인프라:</b> 금융예측 연구는 고빈도 데이터 처리, 대규모 언어모델 기반 공시·뉴스 분석, 그래프 신경망, 강화학습, 설명가능 AI 등 디지털 금융 인프라의 고도화와 관련된다. 이는 금융산업의 데이터 기반 혁신 역량을 강화하는 연구 영역으로 해석된다.</p>
+          <p><b>SDG 10 불평등 감소:</b> 금융정보는 기관투자자와 개인투자자 사이의 정보 격차를 확대하는 요인으로 작용한다. 신뢰 가능한 예측모델과 설명가능한 리스크 지표가 확산될 경우 금융소비자의 의사결정 접근성을 높이고 정보 비대칭을 완화하는 방향으로 확장될 수 있다.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="trend">
+      <div class="section-head"><p>Global / Korea / Dong-A</p><h2>연구동향 및 국가적 접근</h2></div>
+      <div class="dashboard">
+        <article class="panel wide"><div class="panel-title"><b>Scholarly Output Trend</b><span>연도별 연구량</span></div><svg id="trendChart" viewBox="0 0 980 420"></svg></article>
+        <article class="panel"><div class="panel-title"><b>Recent Share Donut</b><span>최근 구간 / 초기+최근 구간</span></div><div id="donuts" class="donut-row"></div><table id="scopeTable"></table></article>
+        <article class="panel"><div class="panel-title"><b>Most Active Countries</b><span>소속국가 기준 표본</span></div><div id="countryBars" class="bars"></div></article>
+        <article class="panel"><div class="panel-title"><b>Korea Institutions</b><span>국내 기관 표본</span></div><div id="koreaBars" class="bars"></div></article>
+      </div>
+      <div class="analysis-board" id="trendAnalysis"></div>
+    </section>
+    <section class="section" id="keyword">
+      <div class="section-head"><p>Hot Keywords</p><h2>키워드 클라우드와 네트워크</h2></div>
+      <div class="tabs" id="keywordTabs"></div>
+      <div class="keyword-grid">
+        <article class="panel cloud-panel"><div class="panel-title"><b>Keyword Cloud</b><span>클릭하면 빈도 확인</span></div><div id="wordcloud" class="wordcloud"></div></article>
+        <article class="panel network-panel"><div class="panel-title"><b>Keyword Network</b><span>상위 bigram 기반</span></div><svg id="networkChart" viewBox="0 0 920 540"></svg></article>
+      </div>
+      <div class="analysis-board" id="keywordAnalysis"></div>
+    </section>
+    <section class="section" id="data-structure">
+      <div class="section-head"><p>Research Data Structure</p><h2>데이터 구조 및 분석 흐름</h2></div>
+      <div id="figureCards" class="figure-grid"></div>
+    </section>
+    <section class="section" id="researchers">
+      <div class="section-head"><p>Dong-A Researchers</p><h2>우리학교 해당 분야 연구자 (최근 10년 연구성과)</h2></div>
+      <div id="researcherCards" class="researcher-grid"></div>
+      <div class="analysis-board compact" id="researcherAnalysis"></div>
+    </section>
+    <section class="section" id="papers">
+      <div class="section-head"><p>Representative Papers</p><h2>AI 금융예측 주제 대표 논문</h2></div>
+      <div class="paper-toolbar"><div id="paperTabs" class="tabs"></div><label class="search"><img src="img/search-icon-02.png" alt=""><input id="paperSearch" type="search" placeholder="논문 제목, 저자, DOI 검색"></label></div>
+      <div id="paperList" class="paper-list"></div>
+      <div class="analysis-board" id="paperAnalysis"></div>
+    </section>
+    <section class="section" id="strategy">
+      <div class="section-head"><p>Strategic Outlook</p><h2>종합 전망과 제안</h2></div>
+      <div class="strategy-grid">
+        <article><b>1. 집중 분야</b><p>본 분석에서는 후속 연구의 우선 영역을 시장충격 조기경보, 폭락위험 예측, 고빈도 금융 시계열, 생성형 OHLC 예측, 설명가능 리스크 모델로 도출하였다. 해당 영역은 동아대학교 논문군에서 확인되는 S&P 500 예측, 변동성 지수, 원유가격 연계, 주간 극단값 분석과 주제적 연속성을 가진다.</p></article>
+        <article><b>2. 협업 구조</b><p>AI 금융예측 연구의 고도화를 위해서는 경영정보, 재무, 통계, 컴퓨터공학의 분절적 접근보다 데이터 수집·정렬, 금융시장 해석, 예측모델 구현, 백테스트, 설명가능성 검증을 연결하는 통합 연구체계가 요구된다. 특히 SHAP 기반 설명가능성, 워크포워드 검증, 산업 데이터 활용 역량은 후속 연구의 질적 경쟁력을 좌우하는 요소로 판단된다.</p></article>
+        <article><b>3. 보고서 결론</b><p>종합하면 AI 기반 주식·금융시장 예측 연구는 단순한 가격 예측 중심에서 시장충격 탐지, 리스크 설명, 포트폴리오 의사결정 지원, 금융감독 리스크 대응으로 확장되고 있다. 동아대학교의 경우 양적 규모 확대 전략보다 기존 성과와 연결성이 높은 ‘설명가능한 시장충격 예측 및 생성형 금융 시계열 모델’ 중심의 특화 전략이 적합한 방향으로 제안된다.</p></article>
+      </div>
+      <div class="analysis-board" id="strategyAnalysis"></div>
+    </section>
+    <section class="section" id="closing">
+      <div class="section-head"><p>Closing Insight</p><h2>마무리</h2></div>
+      <div id="closingCards" class="closing-grid"></div>
+    </section>
+    <section class="section" id="source">
+      <div class="section-head"><p>References</p><h2>참고문헌 및 출처</h2></div>
+      <div id="referenceSections" class="reference-sections"></div>
+    </section>
+  </main>
+  <div id="modalBackdrop" class="modal-backdrop"><div class="modal"><button id="modalClose">닫기</button><h3 id="modalTitle"></h3><div id="modalBody"></div></div></div>
+  <script src="assets/js/report-data.js"></script>
+  <script src="assets/js/report.js"></script>
+</body>
+</html>

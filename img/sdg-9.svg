@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210">
+  <rect width="340" height="210" rx="26" fill="#fd6925"/>
+  <circle cx="286" cy="44" r="72" fill="#fff" opacity=".15"/>
+  <text x="28" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="900" fill="#fff">SDG</text>
+  <text x="28" y="137" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="900" fill="#fff">9</text>
+  <text x="128" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="900" fill="#fff">산업혁신</text>
+  <foreignObject x="128" y="110" width="178" height="72">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Segoe UI,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1.42;color:white">AI·데이터 기반 금융 인프라</div>
+  </foreignObject>
+</svg>
