@@ -119,7 +119,7 @@ th{color:var(--navy);background:#f5f8fc}
 .hero h1{position:relative;padding-left:22px}
 .hero h1:before{content:"";position:absolute;left:0;top:.13em;width:5px;height:1.76em;border-radius:999px;background:#8ee7ff;box-shadow:0 0 18px rgba(142,231,255,.34)}
 .hero h1 .title-ai{color:#8ee7ff;font-weight:950;text-shadow:0 0 18px rgba(142,231,255,.2)}
-.hero h1 .title-mark{display:inline;color:inherit;background:none;-webkit-text-fill-color:currentColor;text-decoration:underline;text-decoration-color:rgba(142,231,255,.82);text-decoration-thickness:.08em;text-underline-offset:.14em;text-shadow:inherit}
+.hero h1 .title-mark{display:inline;color:#8ee7ff;background:none;-webkit-text-fill-color:currentColor;text-decoration:none;text-shadow:0 0 18px rgba(142,231,255,.2)}
 .hero-copy p{color:rgba(255,255,255,.88)}
 .hero-visual{display:none}
 .loader.done{display:none!important}
